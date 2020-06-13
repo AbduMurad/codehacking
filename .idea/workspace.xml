@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83faf03a-b36d-4a98-89c2-01e3a15d018b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_12_075846_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/libs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/libs.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/libs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/libs.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/libs/blog-post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/libs/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/libs/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/libs/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/libs/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/libs/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/css/libs/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/libs/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/libs/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/libs/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/libs/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/libs/sb-admin-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/libs/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +125,8 @@
       <workItem from="1592036262179" duration="4545000" />
       <workItem from="1592046793856" duration="1979000" />
       <workItem from="1592052300057" duration="5100000" />
-      <workItem from="1592066069108" duration="4668000" />
+      <workItem from="1592066069108" duration="6639000" />
+      <workItem from="1592075986880" duration="2612000" />
     </task>
     <servers />
   </component>
@@ -200,9 +165,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="525" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1592056885871" />
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1592066073446">
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1592076001346">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592066073446" />
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592076001346" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1592076148745">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1592076148745" />
   </component>
 </project>
