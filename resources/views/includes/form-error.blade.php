@@ -1,4 +1,4 @@
-<div class="row">
+{{--<div class="row">--}}
     @if(count($errors) > 0)
         <div class="alert alert-danger">
             <ul>
@@ -8,4 +8,4 @@
             </ul>
         </div>
     @endif
-</div>
+{{--</div>--}}
