@@ -21,9 +21,9 @@
         <table class="table">
             <thead>
             <th>Id</th>
-            <th>User</th>
-            <th>Category</th>
             <th>Photo</th>
+            <th>Owner</th>
+            <th>Category</th>
             <th>Title</th>
             <th>Body</th>
             <th>Created</th>
@@ -33,11 +33,11 @@
             @foreach($posts as $post)
                 <tr>
                     <td>{{$post->id}}</td>
-                    <td>{{$post->user->name}}</td>
-                    <td>{{$post->category_id}}</td>
                     <td>
                         <img height="40" src="{{$post->photo ? $post->photo->file : "No Image To Show"}}" alt="">
                     </td>
+                    <td>{{$post->user->name}}</td>
+                    <td>{{$post->category ? $post->category->name : '0'}}</td>
                     <td><a href="{{route('admin.posts.edit', $post->id)}}">{{$post->title}}</a></td>
                     <td>{{$post->body}}</td>
                     <td>{{$post->created_at->diffForhumans()}}</td>

@@ -12,7 +12,7 @@
             </div>
             <div class="form-group">
                 {!! Form::label('category_id', 'Category:') !!}
-                {!! Form::select('category_id', array(''=>'options', '1'=>'Science'), null, ['class'=>'form-control']) !!}
+                {!! Form::select('category_id', array(''=>'options') + $categories, null, ['class'=>'form-control']) !!}
             </div>
             <div class="form-group">
                 {!! Form::label('photo_id', 'Photo:') !!}
@@ -25,6 +25,9 @@
             <div class="form-group">
                 {!! Form::submit('Update Post', ['class'=>'btn btn-primary']) !!}
             </div>
+        {!! Form::close() !!}
+        {!! Form::open(['method' => 'DELETE', 'action' => ['AdminPostsController@destroy', $post->id]]) !!}
+        {!! Form::submit('Delete Post', ['class' => 'btn btn-danger pull-right']) !!}
         {!! Form::close() !!}
     </div>
 

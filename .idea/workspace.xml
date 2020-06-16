@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83faf03a-b36d-4a98-89c2-01e3a15d018b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/PostCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_16_072159_create_posts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1592317637Yohproject-Cute-Game.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1592317656Yohproject-Cute-Game.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_16_161555_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1592325015WhatsApp Image 2020-05-03 at 15.21.44.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PostCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PostCreateRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +149,7 @@
       <workItem from="1592207571334" duration="28111000" />
       <workItem from="1592287493641" duration="16037000" />
       <workItem from="1592320693791" duration="584000" />
+      <workItem from="1592323848127" duration="1959000" />
     </task>
     <servers />
   </component>
