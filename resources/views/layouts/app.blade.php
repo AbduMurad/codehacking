@@ -24,6 +24,7 @@
             margin-right: 6px;
         }
     </style>
+    @yield('style')
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
