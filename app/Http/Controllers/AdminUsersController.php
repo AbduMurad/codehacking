@@ -114,7 +114,10 @@ class AdminUsersController extends Controller
             $input['photo_id'] = $photo->id;
         }
         $user->update($input);
-        return back();
+
+        session()->flash('updated-user', "User $user->name has been updated.");
+
+        return redirect(route('admin.users.index'));
 
     }
 
@@ -127,5 +130,16 @@ class AdminUsersController extends Controller
     public function destroy($id)
     {
         //
+        $user = User::findOrFail($id);
+        if ($user->photo) {
+            if (! $user->photo->file == 'placeholder.png') {
+                unlink(public_path() . $user->photo->file);
+            }
+        }
+        $user->delete();
+
+        session()->flash('deleted-user', "User $user->name has been deleted.");
+
+        return redirect(route('admin.users.index'));
     }
 }

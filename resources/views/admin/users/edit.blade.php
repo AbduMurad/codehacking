@@ -5,7 +5,7 @@
 
     <div class="row">
         <div class="col-sm-3">
-            <div class="img-rounded img-responsive">
+            <div class="img-circle">
                 <img height="300" src="{{$user->photo ? $user->photo->file : App\Photo::place_holder}}" alt="Profile Photo">
             </div>
         </div>
@@ -39,10 +39,13 @@
                 {!! Form::password('password_confirmation', ['class'=>'form-control']) !!}
             </div>
 
-            <div class="form-group">
+            <div class="col-sm-3 form-group">
                 {!! Form::submit('Update User', ['class'=>'btn btn-primary']) !!}
             </div>
             {!! Form::close() !!}
+                {!! Form::open(['method' => 'DELETE', 'action' => ['AdminUsersController@destroy', $user->id]]) !!}
+                    {!! Form::submit('Delete User', ['class' => 'btn btn-danger pull-right']) !!}
+                {!! Form::close() !!}
         </div>
     </div>
     <div class="row">

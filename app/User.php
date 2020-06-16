@@ -28,6 +28,13 @@ class User extends Authenticatable
         return $this->attributes['password'] = bcrypt($value);
     }
 
+    public function isAdmin () {
+        if ($this->role->name == "Admin" && $this->is_active == 1) {
+            return true;
+        }
+        return false;
+    }
+
     public function role () {
         return $this->belongsTo('App\Role');
     }
