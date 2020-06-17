@@ -26,7 +26,7 @@ class PostCreateRequest extends Request
         return [
             //
             'title'=>'required',
-            'category'=>'required',
+            'category_id'=>'required',
             'body'=>'required'
         ];
     }

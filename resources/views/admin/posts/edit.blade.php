@@ -15,17 +15,21 @@
                 {!! Form::select('category_id',  $categories, null, ['class'=>'form-control']) !!}
             </div>
             <div class="form-group">
-                {!! Form::label('photo_id', 'Photo:') !!}
+                {!! Form::label('photo_id', 'Choose New Photo:') !!}
                 {!! Form::file('photo_id', null) !!}
+            </div>
+            <div class="img-thumbnail">
+                <img height="" src="{{$post->photo ? $post->photo->file : ""}}" alt="">
             </div>
             <div class="form-group">
                 {!! Form::label('body', 'Content:') !!}
                 {!! Form::textarea('body', null, ['class'=>'form-control']) !!}
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-3">
                 {!! Form::submit('Update Post', ['class'=>'btn btn-primary']) !!}
             </div>
         {!! Form::close() !!}
+
         {!! Form::open(['method' => 'DELETE', 'action' => ['AdminPostsController@destroy', $post->id]]) !!}
         {!! Form::submit('Delete Post', ['class' => 'btn btn-danger pull-right']) !!}
         {!! Form::close() !!}
