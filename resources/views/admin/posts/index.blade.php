@@ -42,6 +42,7 @@
                     <td>{{str_limit($post->body, 30)}}</td>
                     <td>{{$post->created_at->diffForhumans()}}</td>
                     <td>{{$post->updated_at->diffForhumans()}}</td>
+                    <td><a href="{{route('admin.comments.show', $post->id)}}">View Comments</a></td>
                 </tr>
             @endforeach
             </tbody>
